@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <Hero />
-    <div className="feature">
+    <div className="feature" style={{ marginBlock: "4rem" }}>
       <div
         className="feature__text"
         style={{ maxWidth: "70%", textAlign: "center", margin: "0 auto" }}
@@ -27,22 +27,22 @@ root.render(
           improving the quality of life in biomedical engineering related
           aspects, and promote education and professional development.
         </p>
-        <Container>
-          <Row>
-            {Feature_Content.map((feature) => {
-              return (
-                <Col>
-                  <Feature
-                    title={feature.title}
-                    text={feature.text}
-                    img={feature.img}
-                  ></Feature>
-                </Col>
-              );
-            })}
-          </Row>
-        </Container>
       </div>
+      <Container>
+        <Row>
+          {Feature_Content.map((feature) => {
+            return (
+              <Col lg style={{ marginBlock: "1rem" }}>
+                <Feature
+                  title={feature.title}
+                  text={feature.text}
+                  img={feature.img}
+                ></Feature>
+              </Col>
+            );
+          })}
+        </Row>
+      </Container>
     </div>
   </React.StrictMode>
 );
