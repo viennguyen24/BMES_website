@@ -1,9 +1,5 @@
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import {Nav, Navbar, NavDropdown, Container, Image} from "react-bootstrap";
 import logo from "../assets/BMES_logo.jpg";
-import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Header() {
   return (

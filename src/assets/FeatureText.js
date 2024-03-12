@@ -1,6 +1,6 @@
-import feature_first from "./assets/feature/feature_first.jpg";
-import feature_second from "./assets/feature/feature_second.jpg";
-import feature_third from "./assets/feature/feature_third.jpg";
+import feature_first from "./feature/feature_first.jpg";
+import feature_second from "./feature/feature_second.jpg";
+import feature_third from "./feature/feature_third.jpg";
 
 export const Feature_Content = [
   {

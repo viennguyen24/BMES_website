@@ -1,13 +1,10 @@
 import { Col, Row, Container } from "react-bootstrap";
+
 export default function Ranking() {
   return (
     <div id="ranking">
       <Container>
-        <Row
-          style={{
-            alignItems: "space-between",
-          }}
-        >
+        <Row>
           <Col md={6}>
             <h1>Bringing USF To the Forefront of BME</h1>
             <p>
@@ -27,29 +24,19 @@ export default function Ranking() {
           </Col>
           <Col md={6}>
             <Row>
-              <Col
-                style={{
-                  borderRight: "1px solid black",
-                }}
-              >
+              <Col>
                 <h3>22nd</h3>
                 <p>Best valued college for Biomedical Engineering</p>
-                <h3 style={{ textAlign: "right" }}>11th</h3>
-                <p style={{ textAlign: "right" }}>
+                <h3>11th</h3>
+                <p>
                   Best Value Doctor’s Degree Colleges for Biomedical Engineering
                 </p>
               </Col>
-              <Col
-                style={{
-                  borderLeft: "1px solid black",
-                }}
-                sm={12}
-                md={6}
-              >
+              <Col>
                 <h3>10</h3>
                 <p>Bachelor's Degrees</p>
-                <h3 style={{ textAlign: "right" }}>15</h3>
-                <p style={{ textAlign: "right" }}>Master's Degrees</p>
+                <h3>15</h3>
+                <p>Master's Degrees</p>
                 <h3>3</h3>
                 <p>Doctor’s Degrees</p>
               </Col>

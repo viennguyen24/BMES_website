@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header";
+import Header from "./layouts/Header";
+import Footer from "./layouts/Footer";
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
 import Ranking from "./components/Ranking";
-import Footer from "./components/Footer";
-import { Feature_Content } from "./FeatureText";
+
+import { Feature_Content } from "./assets/FeatureText";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
