@@ -1,8 +1,5 @@
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
-import InputGroup from "react-bootstrap/InputGroup";
-import Form from "react-bootstrap/Form";
+import {Container, Row, Col, InputGroup, Form} from "react-bootstrap";
+
 export default function Footer() {
   return (
     <footer>
