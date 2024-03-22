@@ -7,8 +7,10 @@ export default function Header() {
     <header>
       <Navbar expand="sm" role="navigation" fixed>
         <Container fluid="lg">
-          <Navbar.Brand href="#home">
-            <Image src={logo} roundedCircle style={{ maxWidth: "6.5rem" }} />
+          <Navbar.Brand>
+            <Link to="/">
+              <Image src={logo} roundedCircle style={{ maxWidth: "6.5rem" }} />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" label="navigation" />
           <Navbar.Collapse id="basic-navbar-nav">
