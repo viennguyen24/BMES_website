@@ -1,5 +1,5 @@
-import {Container, Row, Col, Button, Card, Image} from "react-bootstrap";
-import Illustration from "../assets/illustrator.svg"
+import { Container, Row, Col, Button, Card, Image } from "react-bootstrap";
+import Illustration from "../assets/illustrator.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Hero() {
@@ -21,11 +21,7 @@ export default function Hero() {
           </Card>
         </Col>
         <Col>
-          <Image
-            src={Illustration}
-            fluid
-            rounded
-          />
+          <Image src={Illustration} fluid rounded />
         </Col>
       </Row>
     </Container>
