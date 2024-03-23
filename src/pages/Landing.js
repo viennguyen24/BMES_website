@@ -22,7 +22,7 @@ export default function Landing() {
       
       <h1 className="text-center">Our mission</h1>
       <p className="text-center">
-        To help inspire and stimulate all students at the University of
+        To help inspire and stimulate all students at the University of 
         South Florida to achieve their full potential as an engineer or
         leader, improving the quality of life in biomedical engineering
         related aspects, and promote education and professional development.
