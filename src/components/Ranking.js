@@ -3,7 +3,7 @@ import { Col, Row, Container } from "react-bootstrap";
 export default function Ranking() {
   return (
     <div id="ranking">
-      <Container>
+      <Container fluid>
         <Row>
           <Col md={6}>
             <h1>Bringing USF To the Forefront of BME</h1>
