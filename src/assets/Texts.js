@@ -1,6 +1,9 @@
 import feature_first from "./feature/feature_first.jpg";
 import feature_second from "./feature/feature_second.jpg";
 import feature_third from "./feature/feature_third.jpg";
+import movie_night from "./events/movie_night.jpg"
+import python_workshop from "./events/python_workshop.jpg"
+import study_social from "./events/study_social.jpg"
 import Acer from "./people/acer.png";
 import Akintewe from "./people/akintewe-circle.png";
 import Alex from "./people/alex.png";
@@ -134,3 +137,23 @@ export const Officers = [
     contact: "nadezhdakorostyleva@usf.edu",
   },
 ];
+export const Featured_Events = [
+  {
+    img: study_social,
+    title:"Study Social with BMES!",
+    text:" Join our study social to do assignments and prepare for tests together with your peers and have some fun!",
+    link:"https://www.instagram.com/p/C4EoN84x3F_/"
+  },
+  {
+    img:python_workshop,
+    title:"Pandas Python workshop",
+    text:`Join our "Pandas 101: Introduction to Data Analysis with Python" to learn useful skills about Python.`,
+    link:"https://www.instagram.com/p/C3iWxz0OeKi/"
+  },
+  {
+    img:movie_night,
+    title:"Movie Night with BMES",
+    text:"Take a break from the midterms and classes and enjoy time off with peers, movies, boba, and snacks!",
+    link:"https://www.instagram.com/p/C3rGQTHuXlO/"
+  }
+]

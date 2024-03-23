@@ -24,7 +24,7 @@ body{
 }
 
 .card{
-  border: none !important;
+  border: none ;
   background: none;
   background-color: none;
 }
@@ -36,7 +36,7 @@ h1, .card-title {
   font-family: var(--fs-heading);
 }
 header{
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .card-title, h1, h3{
   font-size: 3rem;
@@ -49,21 +49,24 @@ header{
   transition: all 0.2s;
 }
 .nav-link:hover{
+
   color:#3d60d4;
   border-bottom: 3px solid #3d60d4;
 }
 article{
-  margin-top:0.5rem;
+  margin-block:12rem;
 }
 .container{
   border-radius:20px;
+}
+.container-fluid{
+  margin-block:7rem;
 }
 .row{
   align-items: center;
 }
 article .container-fluid:nth-child(odd) .row{
   flex-direction: row-reverse;
-  text-align: right;
 }
 .colorContainer{
   background: rgb(243,253,255);
@@ -73,10 +76,30 @@ h3:nth-child(2n){
   text-align: right;
 }
 footer{
+  margin-top: 10rem;
   background-color: #E7EBF1;
+  padding: 3em;
 }
 footer h3{
-  color:#2b2c33;
+  color:#6B74D4;
   font-size: 1.1em;
   margin-top: 1em;
 }
+footer a{
+  text-decoration: none;
+  color:#2b2c33
+}
+footer .container-fluid{
+  margin: 0;
+}
+.officer{
+  transition: all 0.4s ease-out;
+}
+.card_feature{
+  transition: all 0.4s ease-out;
+  border:1px solid #6B74D4;
+}
+.officer:hover, .card_feature:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
