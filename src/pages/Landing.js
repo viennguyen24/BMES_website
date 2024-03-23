@@ -11,23 +11,25 @@ export default function Landing() {
     <div id="landing">
       <Header />
       <Hero />
-      <article style={{textAlign:"center"}}>
+      <div className="colorContainer">
+      <article style={{textAlign:"center", marginTop:"2rem", paddingBlock:"3em"}}>
       
-          <h1>Our mission</h1>
-          <p>
-            To help inspire and stimulate all students at the University of
-            South Florida to achieve their full potential as an engineer or
-            leader, improving the quality of life in biomedical engineering
-            related aspects, and promote education and professional development.
-          </p>
-      </article>
-      <article>
-        {Features.map((feature, index)=>{
-          return(
-            <Feature feature={feature} index={index}/>
-          )
-        })}
-      </article>
+      <h1>Our mission</h1>
+      <p>
+        To help inspire and stimulate all students at the University of
+        South Florida to achieve their full potential as an engineer or
+        leader, improving the quality of life in biomedical engineering
+        related aspects, and promote education and professional development.
+      </p>
+  </article>
+  <article>
+    {Features.map((feature, index)=>{
+      return(
+        <Feature feature={feature} index={index}/>
+      )
+    })}
+  </article>
+      </div>
       <Ranking />
       <Footer />
     </div>

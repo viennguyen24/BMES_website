@@ -2,11 +2,11 @@ import { Col, Row, Container } from "react-bootstrap";
 
 export default function Ranking() {
   return (
-    <div id="ranking">
-      <Container fluid>
+
+      <Container fluid style={{marginTop:"5em"}}>
         <Row>
-          <Col md={6}>
-            <h1>Bringing USF To the Forefront of BME</h1>
+          <Col md={6} style={{marginLeft: "auto"}}>
+            <h1>USF stands at the vanguard of Biomedical Engineering</h1>
             <p>
               The University of South Florida (USF) boasts a robust Biomedical
               Engineering program, evident through compelling statistics that
@@ -16,15 +16,17 @@ export default function Ranking() {
               student advancement within the field of Biomedical Engineering.
             </p>
             <p>
+              <i>
               All statistics came from{" "}
               <a href="https://www.collegefactual.com/colleges/university-of-south-florida-main-campus/academic-life/academic-majors/engineering/biomedical-engineering/">
                 College Factual
               </a>
+              </i>
             </p>
           </Col>
           <Col md={6}>
             <Row>
-              <Col>
+              <Col style={{borderRight:"1px solid black"}}>
                 <h3>22nd</h3>
                 <p>Best valued college for Biomedical Engineering</p>
                 <h3>11th</h3>
@@ -44,6 +46,6 @@ export default function Ranking() {
           </Col>
         </Row>
       </Container>
-    </div>
+  
   );
 }

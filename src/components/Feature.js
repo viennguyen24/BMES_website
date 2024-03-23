@@ -11,10 +11,10 @@ export default function Feature(props) {
     // </Card>
     <Container key={index} fluid>
       <Row>
-        <Col md={4}>
-        <Image src={feature.img} style={{marginBlock:"5rem", border:"1px solid black", width:"100%"}} alt="Feature Image"/>
+        <Col md={4} >
+        <Image src={feature.img} style={{marginBlock:"1rem", border:"1px solid black", width:"100%"}} alt="Feature Image"/>
         </Col>
-        <Col>
+        <Col > 
         <h1>{feature.title}</h1>
         <p>{feature.text}</p>
         </Col>
