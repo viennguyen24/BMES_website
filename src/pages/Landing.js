@@ -11,8 +11,8 @@ export default function Landing() {
     <div id="landing">
       <Header />
       <Hero />
-      <article>
-        <Container>
+      <article style={{textAlign:"center"}}>
+      
           <h1>Our mission</h1>
           <p>
             To help inspire and stimulate all students at the University of
@@ -20,16 +20,13 @@ export default function Landing() {
             leader, improving the quality of life in biomedical engineering
             related aspects, and promote education and professional development.
           </p>
-          <Row md={3}>
-            {Features.map((feature, index) => {
-              return (
-                <Col>
-                  <Feature feature={feature} key={index} />
-                </Col>
-              );
-            })}
-          </Row>
-        </Container>
+      </article>
+      <article>
+        {Features.map((feature, index)=>{
+          return(
+            <Feature feature={feature} index={index}/>
+          )
+        })}
       </article>
       <Ranking />
       <Footer />

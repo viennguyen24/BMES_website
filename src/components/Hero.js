@@ -4,12 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Hero() {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col>
           <Card>
             <Card.Title>
-              Welcome to USF Biomedical Engineering Society
+              Biomedical Engineering Society at University of South Florida
             </Card.Title>
             <Card.Text>
               BMES is a community that is dedicated to serving the needs of
@@ -17,7 +17,6 @@ export default function Hero() {
               the latest research, bioengineering advances in technology, as
               well as the latest trends that impact academia and industry.
             </Card.Text>
-            <Button>Learn more</Button>
           </Card>
         </Col>
         <Col>
