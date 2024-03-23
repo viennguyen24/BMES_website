@@ -28,8 +28,7 @@ export default function Header() {
                 <NavDropdown.Item href="https://www.bmes.org/">
                   National BMES Site
                 </NavDropdown.Item>
-                <NavDropdown.Item href="">Academic Resources</NavDropdown.Item>
-                <NavDropdown.Item href="">Sponsors</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.usf.edu/engineering/bme/">Academic Resources</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Contacts">
                 <NavDropdown.Item href="https://www.instagram.com/bmesusf/">
